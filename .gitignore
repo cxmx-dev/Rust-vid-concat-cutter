@@ -57,3 +57,6 @@ concat_list.txt
 
 # Never commit backup snapshots
 backup/
+
+# Hub-only kind marker (never publish)
+hub.kind

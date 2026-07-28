@@ -326,7 +326,7 @@ mod tests {
 
     #[test]
     fn sanitize_strips_unc() {
-        let s = sanitize_path(r"\\?\E:\x\y.mp4");
+        let s = sanitize_path(r"\\?\C:\path\to\y.mp4");
         assert!(!s.starts_with(r"\\?\"));
     }
 

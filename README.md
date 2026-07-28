@@ -55,12 +55,12 @@ Options: reverse order / reverse video / reverse audio; 9.5 sec speed mode; conv
 
 ```text
 Rust-vid-concat+cutter/
-  Cargo.toml           # workspace (engine + cutter)
-  engine/              # ffmpeg kit + media crate + pipelines.rs
-  cutter/              # single GUI (Cut + Concat)
-  cutter/examples/     # smoke_pure, smoke_concat_port
-  concat/              # legacy iced package (unused by cargo run)
-  in/  out/  audio/
+  Cargo.toml # workspace (engine + cutter)
+  engine/ # ffmpeg kit + media crate + pipelines.rs
+  cutter/ # single GUI (Cut + Concat)
+  cutter/examples/ # smoke_pure, smoke_concat_port
+  concat/ # legacy iced package (unused by cargo run)
+  in/ out/ audio/
   hub.kind
 ```
 
@@ -97,21 +97,21 @@ Rust-vid-concat+cutter/
 
 ## Version History
 
-72726 10:20:53:86 PM CST  
+2026-07-27
 • `update .mds`: User `cargo run` Cut playtest OK (auto-load + Export Video); hub privacy OK; start-all auto-register (no origin); empty `vid-concat-cutter-Rust` removed.
 
-72726 10:04:38:80 PM CST  
-• `update .mds`: document Python Concat port — `engine/pipelines.rs` + Concat UI (CONCAT, Add Audio, Speed, Convert).  
-• FFmpeg kit previously refreshed to gyan.dev git full `2026-07-27-git-a757b708ae` (project `engine/` + shared kit).  
+2026-07-27
+• `update .mds`: document Python Concat port — `engine/pipelines.rs` + Concat UI (CONCAT, Add Audio, Speed, Convert).
+• FFmpeg kit previously refreshed to gyan.dev git full `2026-07-27-git-a757b708ae` (project `engine/` + shared kit).
 • Manual join+audio smoke with two `in/` clips + `audio/Marblespin.mp3` earlier this session.
 
-72726 9:50:45:26 PM CST  
-• `update .mds`: README / SYNC / USER-NOTES / AGENTS for unified GUI.  
+2026-07-27
+• `update .mds`: README / SYNC / USER-NOTES / AGENTS for unified GUI.
 • Product truth: one egui app, Cut + Concat modes, `cargo run` from project root.
 
-72726 9:36:48:47 PM CST  
+2026-07-27
 • Single GUI: Cut + Concat modes in one egui app (`cargo run`).
 
-72726 9:22:59:00 PM CST  
-• Combined former `video-cutter` + `vid-concatenator-Rust` into this hub folder.  
+2026-07-27
+• Combined former `video-cutter` + `vid-concatenator-Rust` into this hub folder.
 • Media kit under `engine/`; consolidated docs.
