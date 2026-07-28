@@ -1,0 +1,59 @@
+# Cargo
+target/
+debug/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+concat/Cargo.lock
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Dual-doc private twins + hub-only
+USER-*.md
+_project.ps1
+start.ps1
+PLAN.md
+NOTES.md
+REVIEW.md
+Q+A.md
+docs/
+SYNC.md
+AGENTS.md
+*convo*
+iteration-log.md
+README.dev.md
+
+# Local media binaries under engine/ (too large for git)
+/engine/ffmpeg.exe
+/engine/ffprobe.exe
+/engine/ffplay.exe
+/ffmpeg.exe
+/ffprobe.exe
+/ffplay.exe
+
+# Working media + temp lists
+in/*
+!in/.gitkeep
+out/*
+!out/.gitkeep
+audio/*
+!audio/.gitkeep
+concat_list.txt
+*.log
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.wav
+*.png
+*.jpg
+*.json
+
+# Never commit backup snapshots
+backup/

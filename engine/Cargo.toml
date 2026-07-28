@@ -1,0 +1,13 @@
+[package]
+name = "engine"
+version = "0.1.0"
+edition = "2021"
+
+# Media engine for vid-concat-cutter.
+# Uses project-local binaries under engine/ (ffmpeg.exe, ffprobe.exe, ffplay.exe).
+# Also accepts VCC_FFMPEG* env overrides. Never edit backup/ (AGENTS.md).
+
+[dependencies]
+anyhow = "1.0"
+image = "0.25"
+ffmpeg-sidecar = "2"
