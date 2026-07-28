@@ -98,18 +98,6 @@ Rust-vid-concat+cutter/
 ## Version History
 
 2026-07-27  
-• `update .mds`: User `cargo run` Cut playtest OK (auto-load + Export Video); hub privacy OK; start-all auto-register (no origin); empty `vid-concat-cutter-Rust` removed.
-
-2026-07-27  
-• `update .mds`: document Python Concat port — `engine/pipelines.rs` + Concat UI (CONCAT, Add Audio, Speed, Convert).  
-• FFmpeg kit previously refreshed to gyan.dev git full `2026-07-27-git-a757b708ae` (project `engine/` + shared kit).  
-• Manual join+audio smoke with two `in/` clips + `audio/Marblespin.mp3` earlier this session.
-
-2026-07-27  
-• `update .mds`: README / SYNC / USER-NOTES / AGENTS for unified GUI.  
-• Product truth: one egui app, Cut + Concat modes, `cargo run` from project root.
-
-2026-07-27  
 • Single GUI: Cut + Concat modes in one egui app (`cargo run`).
 
 2026-07-27  
