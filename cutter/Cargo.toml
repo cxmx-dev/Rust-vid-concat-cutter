@@ -1,0 +1,19 @@
+[package]
+name = "vid-concat-cutter"
+version = "0.1.0"
+edition = "2021"
+description = "Single GUI: interactive cutter + multi-clip concat (egui). Media via engine/."
+
+[[bin]]
+name = "vid-concat-cutter"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.102"
+eframe = "0.34.3"
+engine = { path = "../engine" }
+image = "0.25.10"
+rfd = "0.17.2"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+rodio = "0.17"

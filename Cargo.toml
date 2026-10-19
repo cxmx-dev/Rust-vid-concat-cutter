@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = ["engine", "cutter"]
+exclude = ["concat"]
+default-members = ["cutter"]
+
+# Single app: `cargo run` → vid-concat-cutter (Cut + Concat modes in one egui GUI).
+# Legacy iced `concat/` package is excluded (web-sys conflict); features live in cutter.
