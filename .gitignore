@@ -3,8 +3,6 @@ target/
 debug/
 **/*.rs.bk
 *.pdb
-Cargo.lock
-concat/Cargo.lock
 
 # IDE / OS
 .idea/
